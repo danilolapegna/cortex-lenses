@@ -10,13 +10,25 @@
 
 # Cortex: lateral thinking for AI agents
 
-**Your agent's first answer is rarely wrong. The trouble is that it is the only one it ever considers.**
+**Your agent's answer sounds sensible. But did it frame your problem, or just hand you the answer everyone else gets?**
 
 Cortex is an agent skill for lateral thinking in Claude Code, Codex and OpenCode. It sends a hard problem through *thinking lenses*, short procedures such as "challenge the premise" or "subtract instead of adding", applied by agents that have never seen your draft; in the full mode, each lens gets an isolated agent of its own. What comes back are the ideas that could change your decision, each with the cheapest test that could prove it wrong.
 
 Cortex is part of my research at [DL Frontier Lab](https://danilolapegna.com/en/lab).
 
 [Italiano](README.it.md) · [Practical guide](https://danilolapegna.com/guides/cortex-lenses-agent-skills) · [The experiment](https://danilolapegna.com/en/lab/cortex-decisioni-piu-lucide)
+
+## Why this
+
+- **Because training rewards the straight line.** Reinforcement learning makes models quicker at reaching the expected answer, not better at finding another way in. On math and code, RL-trained models win on the first try, yet their base models solve more problems when given many attempts ([Yue et al., NeurIPS 2025](https://arxiv.org/abs/2504.13837)). The model gets sharper on the expected path and narrower around it.
+- **Because everyone is starting to frame problems the same way.** Different models give strikingly similar answers to open questions ([Artificial Hivemind, NeurIPS 2025](https://arxiv.org/abs/2510.22954)). When millions of people ask the same few assistants, the risk is not one bad answer: it is one way of representing problems for everybody.
+- **Because framing comes before solving.** How you state a problem decides most of what can follow. Assistants are built to answer the question as asked and rarely stop to ask whether it is the right one. Almost half of the lenses work on the question, not on the answer.
+- **Because sensible is not the same as right for you.** A reasonable answer is reasonable for the average case. Your team, your budget and your stakes are not average, and the move that fits them is rarely the most common one.
+- **Because creativity is a set of moves, not a mood.** Questioning a premise, subtracting, borrowing a mechanism from another field, changing representation: these can be learned and run on purpose. Cortex writes them down, so an agent can apply them deliberately instead of waiting for a lucky phrasing.
+- **Because the expensive mistakes happen before the work starts.** Building the wrong thing well takes weeks; a lens that questions the request takes a minute.
+- **Because ideas are cheap now, and attention is not.** When a model can produce a hundred ideas in seconds, the scarce part is deciding which one deserves a test. Cortex keeps every idea, separates generating from judging and leaves the choice to you.
+- **Because an idea without a test is just an opinion.** Every idea comes with the cheapest test that could prove it wrong and the condition for dropping it, so lateral thinking stays concrete and accountable.
+- **Because thinking tools should be readable.** The lenses are plain Markdown: you can read them, argue with them, change them and add your own. No hidden prompt, no service, no lock-in.
 
 ## Why isolation matters
 

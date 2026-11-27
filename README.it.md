@@ -10,13 +10,25 @@
 
 # Cortex: pensiero laterale per agenti AI
 
-**La prima risposta del tuo agente di rado è sbagliata. Il guaio è che è l'unica che prende in considerazione.**
+**La risposta del tuo agente sembra sensata. Ma ha inquadrato davvero il tuo problema, o ti ha dato la risposta che ricevono tutti?**
 
 Cortex è una agent skill di pensiero laterale per Claude Code, Codex e OpenCode. Fa passare un problema difficile attraverso alcune *lenti di pensiero*, brevi procedure come «metti in dubbio la premessa» o «togli invece di aggiungere», applicate da agenti che non hanno mai visto la tua bozza; nella modalità completa ogni lente ha un agente isolato tutto per sé. Tornano indietro le idee capaci di cambiare la tua decisione, ognuna con la prova più economica in grado di smentirla.
 
 Cortex fa parte del mio lavoro di ricerca al [DL Frontier Lab](https://danilolapegna.com/lab).
 
 [English](README.md) · [Guida pratica](https://danilolapegna.com/guides/cortex-lenses-agent-skills-it) · [L'esperimento](https://danilolapegna.com/lab/cortex-decisioni-piu-lucide)
+
+## Perché Cortex
+
+- **Perché l'addestramento premia la linea retta.** L'apprendimento per rinforzo rende i modelli più rapidi nel raggiungere la risposta attesa, non più bravi a trovare un'altra strada. In matematica e programmazione i modelli addestrati così vincono al primo tentativo, eppure, con molti tentativi a disposizione, i modelli di partenza risolvono più problemi ([Yue et al., NeurIPS 2025](https://arxiv.org/abs/2504.13837)). Il modello diventa più preciso sulla strada prevista e più stretto intorno a essa.
+- **Perché tutti cominciano a inquadrare i problemi nello stesso modo.** Modelli diversi danno risposte sorprendentemente simili alle domande aperte ([Artificial Hivemind, NeurIPS 2025](https://arxiv.org/abs/2510.22954)). Se milioni di persone interrogano gli stessi pochi assistenti, il rischio non è una risposta sbagliata: è un unico modo di rappresentare i problemi, uguale per tutti.
+- **Perché inquadrare un problema viene prima di risolverlo.** Il modo in cui lo formuli decide gran parte di ciò che può venire dopo. Gli assistenti sono costruiti per rispondere alla domanda così com'è posta e di rado si fermano a chiedersi se sia quella giusta. Quasi metà delle lenti lavora sulla domanda, non sulla risposta.
+- **Perché sensato non vuol dire adatto a te.** Una risposta ragionevole lo è per il caso medio. La tua squadra, il tuo budget e la posta in gioco non sono nella media, e la mossa che fa per te di rado è la più comune.
+- **Perché la creatività è un insieme di mosse, non uno stato d'animo.** Mettere in dubbio una premessa, togliere, prendere in prestito un meccanismo da un altro campo, cambiare rappresentazione: sono mosse che si imparano e si eseguono di proposito. Cortex le mette per iscritto, così un agente può applicarle deliberatamente invece di sperare in una formulazione fortunata.
+- **Perché gli errori costosi si fanno prima di cominciare.** Costruire bene la cosa sbagliata richiede settimane; una lente che mette in dubbio la richiesta richiede un minuto.
+- **Perché le idee ormai costano poco, l'attenzione no.** Quando un modello produce cento idee in pochi secondi, la parte scarsa è decidere quale meriti una prova. Cortex conserva ogni idea, separa il generare dal giudicare e lascia a te la scelta.
+- **Perché un'idea senza una prova è solo un'opinione.** Ogni idea arriva con la prova più economica capace di smentirla e con la condizione per lasciarla perdere: così il pensiero laterale resta concreto e verificabile.
+- **Perché gli strumenti per pensare devono essere leggibili.** Le lenti sono semplice Markdown: puoi leggerle, discuterle, modificarle e aggiungerne di tue. Nessun prompt nascosto, nessun servizio, nessun vincolo.
 
 ## Perché isolare le lenti
 
