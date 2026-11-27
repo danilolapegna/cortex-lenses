@@ -1,0 +1,370 @@
+{
+  "title": "A library people can navigate",
+  "problem": "Two volunteers, fixed shelves, no budget. Readers need to find a suitable title without adding weekly work or compromising inventory accuracy.",
+  "baseline": "Add a subject map at the entrance and consistent shelf labels. Keep the existing shelf IDs and inventory. Test the map with real reader questions before extending it.",
+  "independence": "Synthetic rendering example. No independent agent run or reader trial was performed; all proposals and lens notes below illustrate the format.",
+  "lens_results": [
+    {
+      "lens": "asymmetric-move",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying asymmetric move to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "base-rates-and-the-right-reference-class",
+      "status": "none",
+      "note": "Illustrated attempt: seek comparable small-library navigation trials. No observations supplied; no rate or effectiveness claim invented."
+    },
+    {
+      "lens": "break-the-category",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying break the category to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "challenge-assumptions",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying challenge assumptions to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "change-representation",
+      "status": "ideas",
+      "note": "Synthetic card(s): questions."
+    },
+    {
+      "lens": "divergent-burst",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying divergent burst to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "explicit-premises",
+      "status": "ideas",
+      "note": "Synthetic card(s): stability."
+    },
+    {
+      "lens": "ideal-with-invariants",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying ideal with invariants to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "incentives-beat-advice",
+      "status": "none",
+      "note": "Illustrated attempt: inspect the incentive to return items to the correct shelf. No observed incentive mismatch was supplied."
+    },
+    {
+      "lens": "ladder-of-whys",
+      "status": "ideas",
+      "note": "Synthetic card(s): arrival."
+    },
+    {
+      "lens": "make-opposites-cooperate",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying make opposites cooperate to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "morphological-matrix",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying morphological matrix to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "mutation-checklist",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying mutation checklist to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "negative-space",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying negative space to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "opponent-response",
+      "status": "ideas",
+      "note": "Synthetic card(s): response."
+    },
+    {
+      "lens": "optionality",
+      "status": "none",
+      "note": "Illustrated attempt: removable signs preserve the right to reverse. This fixture illustrates that variant under the existing cards rather than inventing a different mechanism."
+    },
+    {
+      "lens": "reframe-the-question",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying reframe the question to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "remove-the-ritual",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying remove the ritual to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "resource-extremes",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying resource extremes to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "reverse-a-disadvantage",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying reverse a disadvantage to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "scenarios-and-robust-strategies",
+      "status": "none",
+      "note": "Illustrated attempt: distinguish stable shelving from frequent category changes. Shelf stability remains an unverified condition on the cards."
+    },
+    {
+      "lens": "step-inside",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying step inside to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "structural-analogy",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying structural analogy to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "subtraction",
+      "status": "ideas",
+      "note": "Synthetic card(s): fewer-labels."
+    },
+    {
+      "lens": "symbolic-analogy",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying symbolic analogy to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "testable-dissent",
+      "status": "none",
+      "note": "Illustrated attempt: challenge whether signage is the bottleneck. Direct observation would settle it; no additional generation card is illustrated."
+    },
+    {
+      "lens": "the-common-barrier",
+      "status": "none",
+      "note": "Illustrated attempt: compare a shelf map and relabeling for their shared assumption of category literacy. No separate card beyond the question-index mechanism is illustrated here."
+    },
+    {
+      "lens": "the-core-verb",
+      "status": "ideas",
+      "note": "Synthetic card(s): transfer."
+    },
+    {
+      "lens": "the-ordinary-fix",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying the ordinary fix to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    },
+    {
+      "lens": "the-problem-as-a-machine",
+      "status": "ideas",
+      "note": "Synthetic card(s): machine."
+    },
+    {
+      "lens": "uncomfortable-routes",
+      "status": "ideas",
+      "note": "Synthetic card(s): borrow-time."
+    },
+    {
+      "lens": "unifying-mechanism",
+      "status": "none",
+      "note": "Synthetic no-idea result: this fixture illustrates applying unifying mechanism to the fixed-shelf problem, but supplies no additional mechanism. This is not evidence that an agent ran the lens."
+    }
+  ],
+  "ideas": [
+    {
+      "id": "questions",
+      "title": "Index by questions, not by shelves",
+      "lens": "change-representation",
+      "section": "ideas",
+      "before": "Find an item by knowing its subject category and shelf location.",
+      "after": "Find a shelf through a reader question tied to its existing shelf ID.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "A stable mapping from reader intent to shelf category removes the need to know the classification.",
+      "dependency": "Reader questions must map to persistent subject categories without promising that a particular title is in stock.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If common questions require title-level availability updates, the index becomes a second catalogue and adds weekly work.",
+      "cheapest_test": "Use ten real reader questions and compare time and wrong turns with the current map.",
+      "drop_it_if": "The question index needs weekly upkeep.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ],
+      "new_operation": "Answer “something for a ten-year-old who loved comics” without knowing the collection.",
+      "variants": [
+        "Put a question-led entry panel beside the existing map.",
+        "Attach a few stable question labels directly to the relevant shelf markers."
+      ]
+    },
+    {
+      "id": "arrival",
+      "title": "Start at the first uncertain step",
+      "lens": "ladder-of-whys",
+      "section": "ideas",
+      "before": "Treat navigation as a shelf-label problem.",
+      "after": "Help readers choose their first destination at the entrance.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "The broader goal is a successful first choice; an orientation cue may remove uncertainty before the shelves matter.",
+      "dependency": "Readers must hesitate at the entrance before choosing a direction, and the cue must be visible at that decision point.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If hesitation starts only when judging books at the shelf, an entrance cue addresses the wrong step.",
+      "cheapest_test": "Observe five arrivals with the existing map, then five with a single entrance cue.",
+      "drop_it_if": "The uncertainty begins only after readers have reached the correct shelf.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ]
+    },
+    {
+      "id": "fewer-labels",
+      "title": "Remove competing signs",
+      "lens": "subtraction",
+      "section": "ideas",
+      "before": "Add another layer of instructions to existing signs.",
+      "after": "Temporarily cover obsolete or overlapping signs while preserving the subject map.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "Fewer competing cues may make the valid route easier to recognize.",
+      "dependency": "The competing signs must be obsolete or redundant, with required safety and accessibility information identified before anything is covered.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If a removed sign carries the only valid instruction for some readers, fewer signs make their route worse.",
+      "cheapest_test": "During one opening period, cover only verified obsolete signs and record wrong turns.",
+      "drop_it_if": "Removing a sign causes more navigation errors or hides a necessary warning.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ]
+    },
+    {
+      "id": "transfer",
+      "title": "Route people like transfers between lines",
+      "lens": "the-core-verb",
+      "section": "ideas",
+      "before": "Require readers to learn the whole shelf classification.",
+      "after": "Offer a small sequence of waypoints from the entrance to a stable subject area.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "A route can be followed locally without memorizing the whole layout.",
+      "dependency": "The route must have recognizable, accessible waypoints that remain visible between the entrance and the target shelf.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If a junction has no visible next waypoint, the route fails exactly where a reader must decide which way to turn.",
+      "cheapest_test": "Draw one existing route as three waypoints and compare with the full subject map.",
+      "drop_it_if": "The waypoints duplicate the map without reducing hesitation.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ],
+      "analogy": "Origin field: transit navigation. Transfer: staged route decisions linked by stable location IDs. Limit: reading interests overlap, so a route cannot imply one correct destination."
+    },
+    {
+      "id": "machine",
+      "title": "Repair the transition where readers get stuck",
+      "lens": "the-problem-as-a-machine",
+      "section": "ideas",
+      "before": "Explain the difficulty as readers not understanding the collection.",
+      "after": "Trace arrival → subject choice → shelf identification → suitable item and observe the failing transition.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "A transition model separates poor orientation from poor category selection.",
+      "dependency": "A volunteer must be able to observe a complete arrival-to-shelf journey during existing duties without interrupting essential service.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If observation misses the first hesitation or prompts the reader, the inferred failure point may be an artefact of the observation.",
+      "cheapest_test": "Observe five complete journeys and mark where help is first needed.",
+      "drop_it_if": "The supposed transition failure is not observed.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ],
+      "new_operation": "Locate a repeatable failure transition without treating every search as one opaque event."
+    },
+    {
+      "id": "response",
+      "title": "Design for the reader who skips the map",
+      "lens": "opponent-response",
+      "section": "ideas",
+      "before": "Assume a clearer map will be consulted.",
+      "after": "Place one essential cue on the route readers already take.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "A reader trying to minimize effort may ignore instructions at the entrance; a cue on the existing path can still be encountered.",
+      "dependency": "Readers who skip the map must still pass a shared decision point where a cue can be seen without obstructing circulation.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If readers take several routes with no shared decision point, one cue misses the people it was meant to help.",
+      "cheapest_test": "Count whether a route cue is noticed during five normal visits.",
+      "drop_it_if": "The cue distracts readers or merely duplicates an already noticed sign.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ]
+    },
+    {
+      "id": "stability",
+      "title": "Test what “no extra weekly work” permits",
+      "lens": "explicit-premises",
+      "section": "premises",
+      "before": "Assume every question index must be maintained alongside inventory.",
+      "after": "Use only stable shelf-category pointers; never list individual titles.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "A category-level index changes only when shelving changes, which may avoid weekly maintenance.",
+      "dependency": "The actual frequency of subject moves must be low enough that pointers can be updated within existing sign-maintenance duties.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If shelf changes force new checks outside existing duties, category-level pointers still violate the no-extra-weekly-work constraint.",
+      "cheapest_test": "Inspect recent shelf changes and ask whether ten likely question pointers would have changed.",
+      "drop_it_if": "The pointers depend on changing item-level availability.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ]
+    },
+    {
+      "id": "borrow-time",
+      "title": "Use one existing duty slot for a reversible pilot",
+      "lens": "uncomfortable-routes",
+      "section": "conditional",
+      "before": "Treat all volunteer time as fully allocated forever.",
+      "after": "Conditionally replace a low-value orientation activity with one pilot, if the volunteers explicitly agree.",
+      "kept_intact": "Existing shelf IDs, accurate inventory, two volunteers, no budget and no added weekly work.",
+      "mechanism": "A substitution could fund a test without adding hours, but only if the displaced task is genuinely dispensable.",
+      "dependency": "Both volunteers must agree to replace a genuinely dispensable activity, and its beneficiary must retain the service they need.",
+      "means": "Existing signs, the current shelf map and a short pilot during normal opening hours.",
+      "breaking_point": "If the displaced activity protects an essential service or its beneficiary loses needed help, the pilot cannot use that duty slot.",
+      "cheapest_test": "Identify a proposed substitution and verify its beneficiary and consequences before scheduling.",
+      "drop_it_if": "Any essential duty would be displaced or the volunteers do not agree.",
+      "evidence": [
+        "Illustrative proposal only. No measured retrieval benefit or maintenance saving is claimed."
+      ]
+    }
+  ],
+  "selected": [
+    "questions",
+    "borrow-time"
+  ],
+  "stress_tests": [
+    {
+      "idea_id": "questions",
+      "checks": [
+        "fragile-assumption",
+        "causal-mechanism"
+      ],
+      "finding": "The index depends on stable category pointers, and apparent success could come from volunteer hints rather than the index itself.",
+      "review_steps": [
+        {
+          "check": "fragile-assumption",
+          "finding": "Illustrative objection: “something like this comic” may need a specific title that has already been borrowed. Category stability alone does not answer an availability question.",
+          "change": "Limit the pilot to category-level questions. For title-specific requests, point to the existing catalogue or volunteer; keep one shelf ID per entry and make no stock promise."
+        },
+        {
+          "check": "causal-mechanism",
+          "finding": "Illustrative rival explanation: a volunteer supplying hints could make either aid appear easier to use.",
+          "change": "Alternate the current map and the question index across comparable tasks with a consistent assistance rule. Record first shelf reached, wrong turns and unprompted completion; log any help separately."
+        }
+      ],
+      "cost": "Drafting and observation take volunteer time. Use only an agreed existing orientation slot; preparation time and any later upkeep remain unmeasured.",
+      "next_test": "First inspect the proposed pointers against the current shelf map. If they stay at category level, use the ten reader questions already proposed, alternating aids; record suitability as well as time. This small probe can identify failures, not establish a reliable effect size.",
+      "owner": "Illustrative role: the volunteer responsible for orientation, subject to agreement; nobody has been assigned.",
+      "stop_if": "Drop the index if it needs title-level upkeep or directs a reader to an unsuitable category. If help or task differences explain the apparent gain, revise the comparison before extending it."
+    },
+    {
+      "idea_id": "borrow-time",
+      "checks": [
+        "downside-and-reversibility"
+      ],
+      "finding": "A free slot on a rota is not proof that the activity being replaced is dispensable.",
+      "review_steps": [
+        {
+          "check": "downside-and-reversibility",
+          "finding": "Illustrative counterexample: an apparently quiet orientation slot may be the only time a reader can receive assisted access. Removing it would transfer the cost to that reader.",
+          "change": "Make the conditional slot swap concrete with a one-session probe: identify the current beneficiary and confirm equivalent access with both volunteers before scheduling. Keep the original duty available for immediate restoration."
+        }
+      ],
+      "cost": "No added weekly hours are allowed. The displaced service, consent check and restoration effort must fit existing duties; feasibility is still unknown.",
+      "next_test": "Before scheduling, ask both volunteers what the proposed slot provides, to whom, and how that service would remain available. Proceed with one reversible session only if they agree and no essential duty is lost; otherwise keep the rota unchanged.",
+      "owner": "Illustrative roles: both volunteers decide on the substitution; the orientation volunteer would run it. No real permission has been obtained.",
+      "stop_if": "Do not schedule if either volunteer disagrees or equivalent access cannot be preserved. During a pilot, restore the original duty immediately if its beneficiary needs it."
+    }
+  ],
+  "selection_note": "Illustrative continuation: suppose the user explicitly says, “Explore the question index and the existing-duty-slot pilot.” Only those two ideas are checked below. This choice and every finding are invented to demonstrate the method; no user selection, observation or reader trial actually occurred."
+}
